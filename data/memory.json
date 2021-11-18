@@ -1,0 +1,92 @@
+{
+    "cartas" : [
+        {
+            "id": "JungKook1" ,
+            "Nombre": "JungKook" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/JUNGKOOK1.jpeg"
+        },
+
+        {
+            "id": "JungKook2" ,
+            "Nombre": "JungKook" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/JUNGKOOK2.jpeg"
+        },
+
+        {
+            "id": "j-hope1" ,
+            "Nombre": "J-Hope" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/j-hope1.jpeg"
+        },
+        {
+            "id": "j-hope2" ,
+            "Nombre": "J-Hope" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/j-hope2.jpeg"
+        },
+        {
+            "id": "jimin1" ,
+            "Nombre": "JiMin" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/JIMIN1.jpg"
+        },
+        {
+            "id": "jimin2" ,
+            "Nombre": "JiMin" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/JIMIN2.jpeg"
+        },
+        {
+            "id": "jin1" ,
+            "Nombre": "Jin" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/JIN1.jpeg"
+        },
+        {
+            "id": "jin2" ,
+            "Nombre": "Jin" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/JIN2.jpeg"
+        },
+        {
+            "id": "rm1" ,
+            "Nombre": "RM" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/RM1.jpeg"
+        },
+        {
+            "id": "rm2" ,
+            "Nombre": "RM" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/RM2.jpeg"
+        },
+        {
+            "id": "suga1" ,
+            "Nombre": "Suga" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/SUGA1.jpeg"
+        },
+        {
+            "id": "suga2" ,
+            "Nombre": "Suga" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/SUGA2.jpeg"
+        },
+        {
+            "id": "v1" ,
+            "Nombre": "V" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/V1.jpeg"
+        },
+        {
+            "id": "v2" ,
+            "Nombre": "V" ,
+            "value": 1,
+            "img":"../data/imagenes-delantera/V2.jpeg"
+        }
+
+    
+    ]
+}

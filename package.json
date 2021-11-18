@@ -1,0 +1,26 @@
+{
+  "name": "memory_bts",
+  "version": "1.0.0",
+  "description": "memory bts",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getzemani18/Memory_BTS.git"
+  },
+  "keywords": [
+    "fetch"
+  ],
+  "author": "getzemani ramirez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getzemani18/Memory_BTS/issues"
+  },
+  "homepage": "https://github.com/getzemani18/Memory_BTS#readme"
+}

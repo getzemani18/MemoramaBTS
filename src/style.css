@@ -1,0 +1,280 @@
+/* --------------------------------------------------------->PANTALLA1---------------------------------------------------------> */
+#pantalla1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  background: url(https://pbs.twimg.com/profile_images/1440456034020069382/65Vt7meK.jpg);
+}
+
+.input-username {
+  border-color: black;
+  border: 30px;
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  padding: 0.8rem 0.5rem;
+  text-align: center;
+  outline: none;
+  border-radius: 100px;
+  border: 2px solid hsla(208, 80%, 80%, 1);
+  font-family: "Montserrat Alternates", sans-serif;
+  letter-spacing: 1px;
+  color: hsla(208, 80%, 70%, 1);
+  transition: 300ms ease-out;
+}
+
+/*--------------------------------------------------------->PANTALLA2----------------------------------------------------------> */
+#pantalla2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  background: url(https://pbs.twimg.com/profile_images/1440456034020069382/65Vt7meK.jpg);
+}
+
+.enter:after,
+.enter:hover:after,
+.enter,
+.enter:hover {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.enter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  background-color: #d29bfd;
+  z-index: 999999999;
+  text-align: center;
+  line-height: 100px;
+  text-decoration: none;
+  color: #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 0 15px 2px #d29bfd;
+  -moz-box-shadow: 0 0 15px 2px #d29bfd;
+  box-shadow: 0 0 15px 2px #d29bfd;
+}
+.enter:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  background-color: #3fb4be;
+  background-color: rgba(0, 235, 255, 0.44);
+  z-index: 999999999;
+  text-align: center;
+  line-height: 80px;
+  text-decoration: none;
+  color: #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 0 15px 2px pink;
+  -moz-box-shadow: 0 0 15px 2px pink;
+  box-shadow: 0 0 15px 2px pink;
+}
+.enter:hover {
+  -webkit-box-shadow: 0 0 4px 4px #3fb4be;
+  -moz-box-shadow: 0 0 4px 4px #3fb4be;
+  box-shadow: 0 0 4px 4px #3fb4be;
+}
+.enter:hover:after {
+  background-color: #d29bfd;
+  background-color: #d29bfd;
+}
+/* <-------------------------------------------------------> PANTALLA 3 <------------------------------------------------------->*/
+/*-----Seccion Memorama */
+#pantalla3 {
+  width: auto;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 0.5fr 3fr 3fr 3fr 3fr 5fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "section1 section1 main"
+    "section1 section1 main"
+    "section1 section1 main"
+    "section1 section1 main"
+    "section1 section1 main"
+    "section1 section1 main"
+    "section1 section1 main"
+    "section1 section1 main"
+    "section1 section1 main"
+    "footer footer footer"
+    "footer footer footer"
+    "footer footer footer"
+    "footer footer footer";
+}
+
+header {
+  grid-area: header;
+  background-color: #ffb6c1;
+}
+
+section1 {
+  grid-area: section1;
+  background-color: #87cefa;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main {
+  grid-area: main;
+  background-color: #d29bfd;
+}
+
+footer {
+  grid-area: footer;
+  background: url(./imagenes-css/footer.jpg);
+}
+
+.memorama-cover {
+  background-image: url(../data/imagentrasera/atrasbts.png);
+  background-size: cover;
+  width: 10em;
+  height: 15em;
+  margin: 10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+  text-align: center;
+  display: flex;
+}
+
+/* transitions */
+.carta-tablero {
+  width: 10em;
+  height: 15em;
+  background-color: transparent;
+  perspective: 1000px;
+}
+
+.memorama {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+/*
+.memorama:active {
+  transform: rotateY(180deg);
+}
+*/
+.memorama-cover,
+.memorama-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.memorama-cover {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1.5em;
+  text-align: center;
+  color: white;
+}
+
+.memorama-back {
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+  padding: 1.5em;
+  text-align: center;
+  color: white;
+}
+
+.imagen {
+  width: 300em;
+  height: 13em;
+}
+
+/* Titulo Pantalla 3 */
+.title {
+  display: block;
+  margin: auto;
+}
+
+.indicaciones {
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.textPuntacion {
+  font-size: 40px;
+  color: pink;
+  font-style: unset;
+}
+
+.Players {
+  text-align: center;
+  font-style: inherit;
+}
+
+#botonreiniciar {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+/* Footer en todas las pantallas */
+.contactos {
+  text-align: center;
+  list-style-type: none;
+}
+.contactos li {
+  display: inline;
+}
+.contacts a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.contactos i {
+  font-size: 420%;
+  margin: 1%;
+  padding: 5%;
+  color: violet;
+}
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  text-align: end;
+  justify-content: end;
+  font-size: 0.9em;
+  color: rgb(237, 237, 237);
+}
