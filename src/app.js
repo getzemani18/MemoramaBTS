@@ -130,7 +130,7 @@ window.gameTest = {
     //---Funcion Fondo 
             function  playFondo () {
                 const SonidoFondo = document.getElementById("SonidoFondo")
-                SonidoFondo.volume = 0.03;
+                SonidoFondo.volume = 0.1;
                 SonidoFondo.loop = true
                 SonidoFondo.play()
             }
